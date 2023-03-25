@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    background: #ddcccc;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #0c0c0c;
+    text-transform: uppercase;
+    font-size: 0px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #f0efef;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #e28ad4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 70vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #000000;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #992589;
+    color: #ebebeb;
+    text-decoration: none;
+    background: #9c7897;
+}
+
+.btn:hover {
+    background: rgb(255, 251, 251);
+    
+}
+
+.btn-home {
+    display:inline-flex;
+}
+
+.btn-home a {
+    margin: 0 60px;
+}
+
+
+.content {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #fffdfd
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #6d105d;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #f1f1f1;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background:  no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 300px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.footer {
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h2 {
+    color: #fefbf8;
+}
+
+.form-group {
+    display: flex;
+}
+
+.campo {
+    padding: 13px 10px;
+    background-color: #b1afb0;
+    color: #fefbf8;
+    outline: none;
+    font-size: 16px;
+    margin: 0 5px 5px 0;
+    border: 0;
+}
+
+.campo::placeholder {
+    color: #fefbf8;
+    text-transform: capitalize;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+}
